@@ -1,0 +1,1 @@
+{{ $subject := site.Params.ctaSubject | urlquery | replaceRE `\+` `%20` }}{{ $body := site.Params.ctaBody | urlquery | replaceRE `\+` `%20` }}{{ $href := printf "mailto:%s?subject=%s&body=%s" site.Params.contact $subject $body }}<a class="button" href="{{ $href | safeURL }}">{{ . }}</a>

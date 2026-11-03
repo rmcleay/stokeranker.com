@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="page-heading wrap"><p class="eyebrow">STOKERANKER / {{ .Title }}</p><h1>{{ .Title }}</h1><p class="lede">{{ .Description }}</p>{{ with .Params.effective }}<p class="updated">Effective {{ . }}</p>{{ end }}</section><article class="prose wrap">{{ .Content }}</article>{{ end }}
