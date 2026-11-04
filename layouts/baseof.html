@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}StokeRanker — Find your next surf{{ else }}{{ .Title }} | StokeRanker{{ end }}</title>
+<meta name="description" content="{{ .Description | default site.Params.description }}">
+<link rel="canonical" href="{{ .Permalink }}"><meta name="theme-color" content="#082e49">
+<link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/png">
+<meta property="og:title" content="{{ if .IsHome }}StokeRanker — Find your next surf{{ else }}{{ .Title }} | StokeRanker{{ end }}">
+<meta property="og:description" content="{{ .Description | default site.Params.description }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "images/stokeranker.webp" | absURL }}"><meta property="og:image:alt" content="StokeRanker wave artwork">
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="{{ "/" | relURL }}" aria-label="StokeRanker home"><img src="{{ "images/stokeranker.webp" | relURL }}" width="42" height="42" alt=""><span>StokeRanker</span></a><nav aria-label="Main navigation"><a href="{{ "/#features" | relURL }}">Features</a><a href="{{ "/help/" | relURL }}">Help</a><a href="{{ "/privacy/" | relURL }}">Privacy</a><a class="nav-cta" href="{{ "/#access" | relURL }}">Get access ↗</a></nav></div></header>
+<main id="main">{{ block "main" . }}{{ end }}</main>
+<footer class="site-footer"><div class="wrap footer-inner"><p>© {{ now.Year }} Robert McLeay · Made for the Coffs Coast.</p><nav aria-label="Footer"><a href="{{ "/help/" | relURL }}">Support</a><a href="{{ "/privacy/" | relURL }}">Privacy policy</a><a href="mailto:{{ site.Params.contact }}">Contact Rob</a></nav></div></footer>
+</body></html>
