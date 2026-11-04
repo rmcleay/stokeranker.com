@@ -19,7 +19,7 @@ The publish directory is `public/`; deploy that directory rather than the reposi
 - `layouts/home.html`: landing-page copy and screenshot descriptions.
 - `content/help.md` and `content/privacy.md`: support and privacy pages.
 - `assets/css/main.css`: responsive styles, bundled and fingerprinted by Hugo.
-- `static/images/`: existing branding and app screenshots from the iOS project.
+- `assets/images/`: app screenshots, served with fingerprinted filenames so a replaced shot is never stale in a cache. `static/images/`: branding.
 
 No JavaScript, third-party fonts, analytics or cookies are used by this public site. All access CTAs open a prefilled email; invite URLs are deliberately not published.
 
