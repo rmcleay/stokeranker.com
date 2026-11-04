@@ -17,7 +17,7 @@ The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. I
 
 ## Where does it cover?
 
-Eight breaks on the Coffs Coast’s northern beaches: Arrawarra, Mullawarra, Woolgoolga Back Beach, Woolgoolga Beach, Serenity, Sandy Beach, Shellys and Emerald Beach. Coffs Harbour’s own beaches aren’t covered yet. Each break is modelled on its own, rather than one forecast for the whole coastline.
+Eight breaks on the Coffs Coast’s northern beaches: Arrawarra, Mullawarra, Woolgoolga Back Beach, Woolgoolga Beach, Serenity, Sandy Beach, Shellys and Emerald Beach. That’s where it starts, because every forecast there can be checked against the surf. Coffs Harbour’s own beaches and more of the coast will be added as the model improves. Each break is modelled on its own, rather than one forecast for the whole coastline.
 
 ## What do the scores mean?
 
