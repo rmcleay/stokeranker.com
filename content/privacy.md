@@ -1,71 +1,67 @@
 +++
 title = 'Privacy policy'
-description = 'How StokeRanker handles information in the app, the web service and this website.'
+description = 'How StokeRanker handles information in the app, the web app and this website.'
 effective = '4 November 2026'
 +++
 
-StokeRanker is an independent surf forecasting project operated by Robert (Rob) McLeay (“we” in this policy). This policy covers the iPhone and iPad app, the StokeRanker web app and stokeranker.com. Contact [hello@stokeranker.com](mailto:hello@stokeranker.com) with privacy questions or requests.
+StokeRanker is an independent, non-commercial surf forecasting project run by Robert (Rob) McLeay (“we” below). This policy covers the iPhone and iPad app, the StokeRanker web app and stokeranker.com. Questions and requests: [privacy@stokeranker.com](mailto:privacy@stokeranker.com).
 
-## At a glance
+## In short
 
-StokeRanker has no advertising or advertising tracking, and the native app includes no third-party analytics or crash-reporting SDKs. You do not need to submit feedback, photos or spot checks to read forecasts. The native app does not request your current GPS location, access your photo library or upload photos in its current version.
+- No accounts, no advertising, no analytics and no tracking across apps or websites.
+- Reading forecasts in the app doesn't ask for your location, photos, camera or contacts, and sends nothing that identifies you.
+- Our servers see your IP address when you connect, like any website, and may keep it in logs for running and securing the service.
+- What you choose to send through the web app (feedback, spot checks and photos) is stored so we can check and improve the forecasts. You can ask us to delete it.
+- We never sell information or share it for advertising.
 
-Reading forecasts still involves network requests. Optional feedback and web spot checks are stored on the StokeRanker service, as explained below.
+## The iPhone and iPad app
 
-## Reading forecasts in the app
+**What it sends.** The app downloads forecasts, break details and wave maps from the StokeRanker server. Each request says which surfer profile, scoring model and forecast you chose, and for a break page or map, which break and hour. That describes a forecast, not you or where you are.
 
-The app requests forecasts, break information and available wave maps from the StokeRanker server. Requests include the selected scoring model, forecast source and surfer profile; requests for individual breaks or maps also identify the break and forecast time or snapshot. These are forecast selections, not your physical location.
+**What our server receives.** As with any internet service, the server and the hosting in front of it receive your IP address, the time, the address requested and basic client information. These may be kept in access and error logs to run, secure and troubleshoot the service. They aren't used for advertising, profiling or tracking.
 
-Like other internet services, the server and infrastructure handling the connection receive technical information such as your IP address, request time, requested URL and client information. Infrastructure may keep access or error logs for operation, security and troubleshooting. StokeRanker does not use this information for advertising or cross-service tracking.
+**Apple Maps.** The Map tab uses Apple’s MapKit, so Apple receives the requests needed to show the map, under [Apple’s privacy policy](https://www.apple.com/legal/privacy/). The app doesn’t show or use your location.
 
-The regional map uses Apple’s MapKit. Apple receives the requests needed to supply its map service, under [Apple’s privacy policy](https://www.apple.com/legal/privacy/). The app does not enable user-location display or send a GPS position to StokeRanker.
+**Webcams.** Some breaks show a webcam. Its still image is loaded directly from the camera’s provider, which receives your IP address and the usual request details under its own privacy policy. We don’t receive or store that request. A webcam link opens the provider’s site in your browser.
 
-## Information kept on your device
+**On your device.** The app remembers your choice of surfer, model and forecast, and keeps the last forecast it downloaded so it can still show one offline. These stay on your device; your choices may be included in your device backups. Deleting the app removes them from the device.
 
-The app saves your selected forecast source, scoring model and surfer profile in device settings, and caches downloaded forecast data so a saved forecast can be shown if a refresh fails. These are stored in the app’s settings and cache, not uploaded as a personal profile. Preferences may be included in device backups managed by your operating system.
+The app has no forms: it doesn’t send feedback, spot checks or photos.
 
-Deleting the app removes its local settings and cache from that device. This does not remove information you previously submitted to the server or copies in device backups.
+## The web app
 
-## Optional prediction feedback
+**Invite links and your device.** The web app is invite-only. Opening an invite link stores a random device identifier in an essential cookie for up to two years. The server keeps a matching device record: any name you give it, browser information, and when it was first and last seen. This links your submissions to your device without a username or password.
 
-If you submit the prediction-feedback form, StokeRanker stores your chosen feedback reasons and comments, together with forecast context such as the break, time, surfer profile, model, forecast source and displayed score. It also records the submission time and browser/client information. If the browser has joined the invited web service, feedback may be associated with its device record.
+**Feedback on a forecast.** If you send feedback, we store the reasons and comments you give, the forecast it was about (break, time, surfer profile, model, forecast and score shown), the time and browser information, and your device record if you have one. Your IP address is used briefly to limit repeated submissions. Please don’t put personal or sensitive details in comments.
 
-The service uses the client IP address temporarily to limit repeated submissions. It may also appear in infrastructure logs. Please avoid including personal or sensitive information in free-text comments.
+**Spot checks and photos.** If you submit a spot check, we store what you enter: the break, time, ratings, measurements and notes. Photos are stored as uploaded, including their metadata, which can include **precise location, camera direction, altitude and when the photo was taken**. Marks you draw on photos are stored too. Other invited users can see and mark spot-check photos, so treat them as shared within the trial. Please don’t upload images of identifiable people without their permission.
 
-We use feedback to investigate errors, compare predictions with observed conditions and improve the forecasting models.
+You can read forecasts without sending anything, decline location and camera permissions, or remove location data from photos before uploading. Turning a permission off stops future access; it doesn’t delete what you’ve already sent.
 
-## Optional web spot checks and photos
+We use feedback, spot checks and photos only to check the forecasts, measure where waves break and improve the models.
 
-Spot checks currently run on the invited web service. Joining through an invite link creates a random device identifier stored in an essential browser cookie, which can last up to two years. The server keeps the corresponding device record, any name you choose to give it, browser information, and first/last-seen times. This allows submissions to be associated with your device and access to be managed without a conventional account.
+## Email and TestFlight
 
-When you submit a spot check, we store the break, observation time, surf ratings and measurements, notes and other form fields you choose to provide. If you upload photos, the service stores the original files, including embedded metadata. Depending on what you provide and the permissions you grant, this can include **precise location, camera direction, altitude and capture time**, from the browser or the photo’s metadata. Photo annotations and their submission/device context are also stored when you choose to mark a photo.
+If you email us, we receive your address and whatever you write, and use them to reply, arrange access and handle requests. If you ask to test the app, we use your email address to invite you through Apple’s TestFlight, which Apple runs under [its TestFlight terms](https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html) and [privacy policy](https://www.apple.com/legal/privacy/).
 
-We use these observations and images to check predictions, measure where waves break and develop the models. Other invited web users can view spot-check photos and annotate them; treat uploaded observations and photos as shared within the trial, rather than private messages to Rob. Do not upload images of identifiable people or private information without permission.
+## Who else handles information
 
-You can decline location/camera permissions, avoid uploading photos, remove location metadata before uploading, or simply read forecasts without making a submission. Revoking a permission stops future access to that device feature; it does not erase data already submitted. Native spot-check uploads are not yet implemented.
+Only the hosting and email providers needed to run the service and answer messages, for those purposes alone, plus Apple for maps and TestFlight as described above. We may disclose information if the law requires it. The weather and wave data behind the forecasts is fetched by our server; nothing you send is passed to those data providers.
 
-## Contact and TestFlight
+## Keeping and deleting information
 
-If you email Rob, we receive your email address and anything you include. We use this to reply, arrange access and investigate support or privacy requests. If you ask for a TestFlight invitation, your email address may be used to invite you through Apple’s TestFlight service. Apple operates TestFlight and handles its own testing, diagnostic and feedback information under [its TestFlight terms](https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html) and [privacy policy](https://www.apple.com/legal/privacy/).
+Feedback, spot checks, photos and marks are kept while they’re useful for checking and improving the forecasts; there is no automatic expiry yet. Logs, email and backups are kept on their own schedules.
 
-## Sharing and service providers
+You can delete your own spot checks in the web app from the device that sent them. To delete anything else (feedback, photos, marks, a device record or emails), write to [privacy@stokeranker.com](mailto:privacy@stokeranker.com) with enough detail to find it, such as the break, date and time, and device name. We may need to check that it’s yours. Copies in backups disappear as those backups are replaced. Clearing your browser’s cookie doesn’t delete anything on the server, and the web app may then no longer recognise your earlier submissions.
 
-We do not sell personal information or share it with advertising networks. Information is handled by the infrastructure and email providers needed to host and secure the service and respond to messages, only for those purposes. Apple handles its map and TestFlight services as described above. We may also disclose information when legally required. Public weather and wave data are fetched by the server; reading a forecast does not send your feedback or photos to those forecast providers.
+## This website
 
-## Retention and deletion
-
-Submitted feedback, spot checks, photos and annotations are retained while needed for forecast evaluation and development. There is currently no automatic expiry period for these submissions. Access and error logs, email and infrastructure backups may have separate retention schedules.
-
-You can delete your own spot checks through the web interface while the submitting device is recognised. To request deletion of feedback, photos, annotations, a device record or correspondence, email [hello@stokeranker.com](mailto:hello@stokeranker.com) with enough context to locate it, such as the break, observation date/time and device name. Rob may need to confirm that the information is yours. Deletion requests are handled manually; retained backup copies may persist until those backups are replaced. Removing a browser cookie does not delete server records, and may prevent the site recognising your previous submissions.
-
-## This public website
-
-stokeranker.com uses no cookies, analytics, external fonts or third-party scripts. Its images and styles are served with the site. Hosting infrastructure may process standard access logs, including IP addresses and pages requested, for delivery, security and troubleshooting. Clicking an email link opens your email app; no access request is submitted until you send the email.
+stokeranker.com uses no cookies, analytics, external fonts or third-party scripts. The hosting may keep standard access logs, including IP addresses and pages requested, for delivery and security. Email links only open your email app.
 
 ## Children
 
-StokeRanker is not directed at children. If you believe a child has submitted personal information, contact Rob so it can be located and removed.
+StokeRanker isn’t aimed at children. If you think a child has sent us personal information, email [privacy@stokeranker.com](mailto:privacy@stokeranker.com) and we’ll find and remove it.
 
 ## Changes
 
-Updates to this policy will appear at this address with a revised effective date. If new app features change the handling of personal information, this policy will be updated to describe them.
+Updates will be posted here with a new effective date, and this policy will be updated before any new feature changes how personal information is handled.
