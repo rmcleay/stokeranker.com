@@ -4,7 +4,7 @@ title = 'StokeRanker'
 disableKinds = ['taxonomy', 'term', 'rss']
 enableRobotsTXT = true
 [params]
-  description = 'Find your next surf on the Coffs Coast. Compare local breaks, see the best sessions and understand the forecast behind every score.'
+  description = 'Free surf forecasts for the Coffs Coast’s northern beaches, Arrawarra to Emerald. Compare local breaks, see the best sessions and understand the forecast behind every score.'
   contact = 'hello@stokeranker.com'
   ctaSubject = 'StokeRanker access request'
-  ctaBody = "Hi Rob,\n\nI'd like to try StokeRanker.\n\nAccess: TestFlight / web app / both\nDevice: \nLocal breaks: \n\nThanks!"
+  ctaBody = "Hi Rob,\n\nI'd like to try StokeRanker.\n\nAccess: TestFlight / web app / both\nDevice: \nLocal breaks: \nHow often you surf them: \n\nThanks!"

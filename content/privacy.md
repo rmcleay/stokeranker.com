@@ -4,7 +4,7 @@ description = 'How StokeRanker handles information in the app, the web service a
 effective = '4 November 2026'
 +++
 
-StokeRanker is an independent surf forecasting project operated by Robert (Rob) McLeay. This policy covers the iPhone and iPad app, the StokeRanker web app and stokeranker.com. Contact [hello@stokeranker.com](mailto:hello@stokeranker.com) with privacy questions or requests.
+StokeRanker is an independent surf forecasting project operated by Robert (Rob) McLeay (“we” in this policy). This policy covers the iPhone and iPad app, the StokeRanker web app and stokeranker.com. Contact [hello@stokeranker.com](mailto:hello@stokeranker.com) with privacy questions or requests.
 
 ## At a glance
 
