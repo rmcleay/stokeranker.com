@@ -1,7 +1,7 @@
 +++
 title = 'Privacy policy'
 description = 'How StokeRanker handles information in the app, the web app and this website.'
-effective = '4 November 2026'
+effective = '7 November 2026'
 +++
 
 StokeRanker is an independent, non-commercial surf forecasting project run by Robert (Rob) McLeay (“we” below). This policy covers the iPhone and iPad app, the StokeRanker web app and stokeranker.com. Questions and requests: [privacy@stokeranker.com](mailto:privacy@stokeranker.com).
@@ -9,7 +9,7 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 ## In short
 
 - No accounts, no advertising, no analytics and no tracking across apps or websites.
-- Reading forecasts in the app doesn't ask for your location, photos, camera or contacts, and sends nothing that identifies you.
+- Reading forecasts in the app doesn't ask for your photos, camera or contacts, and sends nothing that identifies you. It asks for your location only if you choose Near me, and that stays on your device.
 - Our servers see your IP address when you connect, like any website, and may keep it in logs for running and securing the service.
 - What you choose to send through the web app (feedback, spot checks and photos) is stored so we can check and improve the forecasts. You can ask us to delete it.
 - We never sell information or share it for advertising.
@@ -20,17 +20,21 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 
 **What our server receives.** As with any internet service, the server and the hosting in front of it receive your IP address, the time, the address requested and basic client information. These may be kept in access and error logs to run, secure and troubleshoot the service. They aren't used for advertising, profiling or tracking.
 
-**Apple Maps.** The Map tab uses Apple’s MapKit, so Apple receives the requests needed to show the map, under [Apple’s privacy policy](https://www.apple.com/legal/privacy/). The app doesn’t show or use your location.
+**Apple Maps.** The Map tab uses Apple’s MapKit, so Apple receives the requests needed to show the map, under [Apple’s privacy policy](https://www.apple.com/legal/privacy/). The map doesn’t show your location.
 
 **Webcams.** Some breaks show a webcam. Its still image is loaded directly from the camera’s provider, which receives your IP address and the usual request details under its own privacy policy. We don’t receive or store that request. A webcam link opens the provider’s site in your browser.
 
 **On your device.** The app remembers your choice of surfer, model and forecast, and keeps the last forecast it downloaded so it can still show one offline. These stay on your device; your choices may be included in your device backups. Deleting the app removes them from the device.
+
+If you choose Near me under Breaks, the app asks for your approximate location while you’re using it, rounds it to about a kilometre and keeps it on your device to pick the nearby breaks. It’s never sent to our server. Your starred breaks stay on the device too. You can turn location off in Settings at any time.
 
 The app has no forms: it doesn’t send feedback, spot checks or photos.
 
 ## The web app
 
 **Invite links and your device.** The web app is invite-only. Opening an invite link stores a random device identifier in an essential cookie for up to two years. The server keeps a matching device record: any name you give it, browser information, and when it was first and last seen. This links your submissions to your device without a username or password.
+
+**Which breaks to show.** If you choose to see only starred breaks or those near you, the web app keeps that choice in a preference cookie on your device for up to a year. The cookie holds the choice, the names of your starred breaks and, for Near me, the names of the breaks within the distance you picked, and your browser sends it with each forecast page so the server can draw the shorter list. For Near me the browser asks for your location; the page works out which breaks are nearby itself and keeps your approximate position (rounded to about a kilometre) in the browser’s storage. Your position is never sent to us, though the list of nearby breaks shows roughly which stretch of coast you’re on. Clearing the site’s data in your browser removes all of it.
 
 **Feedback on a forecast.** If you send feedback, we store the reasons and comments you give, the forecast it was about (break, time, surfer profile, model, forecast and score shown), the time and browser information, and your device record if you have one. Your IP address is used briefly to limit repeated submissions. Please don’t put personal or sensitive details in comments.
 
