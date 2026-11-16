@@ -10,7 +10,7 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 
 - No accounts, no advertising, no analytics and no tracking across apps or websites.
 - Reading forecasts in the app doesn't ask for your photos, camera or contacts, and sends nothing that identifies you. It asks for your location only if you choose Near me, and that stays on your device.
-- Surfs you record on Apple Watch, with their route, rides and workout, stay on your devices and in Apple Health. To show the forecast beside a surf, the app sends us only the break and the time you were out.
+- If you record surfs with the Apple Watch, your tracks, rides and surf journal stay on your iPhone and Watch, and workouts go to Apple Health only if you allow it. None of it is sent to our server.
 - Our servers see your IP address when you connect, like any website, and may keep it in logs for running and securing the service.
 - What you choose to send through the web app (feedback, spot checks and photos) is stored so we can check and improve the forecasts. You can ask us to delete it.
 - We never sell information or share it for advertising.
@@ -31,21 +31,23 @@ If you choose Near me under Breaks, the app asks for your approximate location w
 
 The app has no forms: it doesn’t send feedback, spot checks or photos.
 
-## Surfs and the Apple Watch app
+## Surfs and the Apple Watch
 
-Recording surfs is optional. Nothing below happens unless you start a surf on your Apple Watch, or import surf history files yourself.
+Recording a surf on the Apple Watch is optional. Nothing below happens unless you start a surf on your Watch, or import surf history files yourself.
 
-**What the Watch records.** While a surf is running, the Watch app records your precise route from GPS, to find and measure your rides. It runs as a workout, so with your permission it reads your heart rate and active energy from Apple Health, and it saves each surf to Apple Health as a workout with its route. It also logs wrist motion and air pressure, to help tell how rides start. You can turn any of these permissions off in Settings or the Health app.
+**What the Watch records.** While you record, the Watch app uses its location to draw your track and count your rides, and wrist motion and air pressure to help tell how rides start. It asks for location and Motion & Fitness access the first time. You can turn either off in Settings at any time.
 
-**Where surfs are kept.** When you finish, the Watch sends the surf straight to the StokeRanker app on your paired iPhone. The app keeps your surfs, their routes and rides, ratings, boards and the spots you name in its own storage on the device, encrypted until you first unlock the phone after a restart. They may be included in your device backups. They are not sent to our server. Surf history files you import are read on the device and not uploaded. Apple Health keeps the workouts under [Apple’s privacy policy](https://www.apple.com/legal/privacy/).
+**Where surfs are kept.** The Watch sends each surf, its track and its motion log straight to the StokeRanker app on your paired iPhone. They are kept there in your surf journal, with the break, board, ratings, spots and boards you add, in the app’s own storage on the device, encrypted until you first unlock the phone after a restart. They stay on your devices and may be included in your device backups. Surf history files you import are read on the device and not uploaded.
+
+**Apple Health.** If you allow it, each surf is saved to Apple Health as a surfing workout with its route, and the Watch reads your heart rate and active energy during the surf. Apple Health keeps that under [Apple’s privacy policy](https://www.apple.com/legal/privacy/); we never receive it. You can change these permissions in the Health app.
 
 **Maps of your surfs.** Surf maps and thumbnails use Apple’s MapKit, so Apple receives the map requests for the area of each surf, as with the Map tab.
 
-**The forecast beside a surf.** When you open the forecast for a surf, the app asks our server for the break, the start and end time of the surf, and your surfer profile, model and forecast choices. It doesn’t send your route, rides, ratings, heart rate or the spots you name. Like any request, it reaches our server with your IP address and may appear in its logs, so those logs can show that a device asked about a given break and time.
+**The forecast beside a surf.** To show the forecast beside a surf, the app asks the StokeRanker server for the forecast at that break and time, with your surfer profile, model and forecast choices, like any other forecast request. Your track, motion, heart rate and journal are never sent to our server. Like any request, it reaches our server with your IP address and may appear in its logs, so those logs can show that a device asked about a given break and time.
 
 **Sharing.** If you share a surf card, the app makes an image and hands it to the share sheet. Where it goes from there is up to you.
 
-**Deleting surfs.** Delete a surf in the app to remove it from the device. Deleting the app removes all of them. Workouts saved to Apple Health stay there until you delete them in the Health app.
+**Deleting surfs.** Deleting a surf deletes its track; deleting the app removes the journal. Workouts saved to Apple Health stay there until you delete them in the Health app.
 
 ## The web app
 
