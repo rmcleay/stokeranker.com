@@ -9,15 +9,15 @@ Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%2
 
 ## Is it free?
 
-Yes. Free for 100 years. No ads, no subscription, no paid tier. StokeRanker is an independent project, built to surf this stretch of coast better, and you don’t pay to help test it.
+Yes, and it will stay that way. No subscriptions, not now, not ever. No ads and no paid tier either. StokeRanker is an independent project, built to surf this stretch of coast better.
 
 ## Which devices does it support?
 
-The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. Install Apple’s TestFlight app to accept a beta invitation. The web app works in a modern browser.
+The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. Recording surfs needs an Apple Watch with watchOS 26 or later, paired with your iPhone. Install Apple’s TestFlight app to accept a beta invitation. The web app works in a modern browser, for forecasts only.
 
 ## Where does it cover?
 
-Eight breaks on the Coffs Coast’s northern beaches: Arrawarra, Mullawarra, Woolgoolga Back Beach, Woolgoolga Beach, Serenity, Sandy Beach, Shellys and Emerald Beach. That’s where it starts, because every forecast there can be checked against the surf. Coffs Harbour’s own beaches and more of the coast will be added as the model improves. Each break is modelled on its own, rather than one forecast for the whole coastline.
+Seventeen breaks on the Coffs Coast, from Sawtell to Arrawarra: Sawtell Southies, Sawtell Main, Sawtell Island, Sawtell Trapdoors, Gallows, North Wall, Park Beach, Macauleys, Emerald Beach, Shellys, Sandy Beach, Serenity, Woolgoolga Beach, Woolgoolga Back Beach, Mullawarra, Mullaway and Arrawarra. More of the coast will be added over time. Each break is modelled on its own, rather than one forecast for the whole coastline.
 
 ## What do the scores mean?
 
@@ -25,7 +25,19 @@ Each break gets a score out of 100 for each session, with a plain-word summary f
 
 ## Why are there different models and forecast sources?
 
-The forecast source (ECMWF or GFS) supplies the wind and waves. The scoring model (Original or Experimental) decides what those conditions mean at each break. You can switch either one on its own. Experimental models are trials, not a promise of greater accuracy. Telling Rob which combination matched the beach is the most useful thing you can do in the trial.
+The forecast source (ECMWF or GFS) supplies the wind and waves. The scoring model decides what those conditions mean at each break, so you can pick the one that suits how you surf:
+
+- **Everyday** scores the typical wave at each break. It suits surfers who want a wave every few minutes, and it is the fixed reference the others are measured against.
+- **Sets** lets the sets decide on small days, less a charge for the wait between them. It suits surfers happy to sit and wait for a set.
+- **Live-Buoy Sets** is Sets with today’s swell corrected to the live Coffs Harbour wave buoy. It helps most on southerly swell days at sheltered breaks, and only changes the first day of the forecast.
+
+You can switch the model and the forecast source separately. The models keep improving: rated surfs logged on the beach are checked against every model, the models are refitted as the checks build up, and new ones are added as they’re tested. Telling Rob which combination matched the beach is the most useful thing you can do in the trial.
+
+## How do I record a surf?
+
+Open StokeRanker on your Apple Watch and start a surf before you paddle out. Water Lock comes on, so there’s nothing to touch while you surf. Finish when you’re back on the beach, and the surf goes to your iPhone’s **Surfs** tab. Each surf shows a satellite map of your rides, with every ride counted, measured and timed. StokeRanker suggests the break from where your rides started; you can confirm it, or name your own spot.
+
+Rate the waves first and the app then shows what the forecast said for the time you were out, so the forecast doesn’t sway your answer. The **Scoreboard** adds up your surfs for the week, month, year and all time, with your bests and favourite breaks.
 
 ## Can I report a forecast that looks wrong?
 
