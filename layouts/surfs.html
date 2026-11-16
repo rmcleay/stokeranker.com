@@ -1,0 +1,93 @@
+{{ define "main" }}
+<section class="hero hero-surfs">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Surf tracking on Apple Watch</p>
+      <h1>Every wave, <span>counted.</span></h1>
+      <p class="lede">Have an Apple Watch? Want to measure how much stoke you’re getting? Start a surf with a turn of the crown, paddle out, and forget about it. StokeRanker maps every ride, counts your waves, and keeps score.</p>
+      <div class="actions">{{ partial "cta.html" "Get early access ↗" }}<a class="ghost" href="#scoreboard">See the Scoreboard <span aria-hidden="true">→</span></a></div>
+      <ul class="chips" aria-label="At a glance"><li>Free, forever</li><li>Tracks stay on your devices</li><li>Saves to Apple Health, if you like</li></ul>
+    </div>
+    <div class="stage stage-surfs" role="group" aria-label="StokeRanker surf tracking on iPhone and Apple Watch">
+      {{ partial "device.html" (dict "name" "iphone-surfs" "width" 290 "class" "stage-phone" "eager" true "alt" "The Surfs tab on iPhone: this week’s surf days ticked off, 3 surfs and 10 rides, 2 weeks in a row, then a card for today’s surf at Emerald Beach with its rides drawn as yellow tracks on a satellite map: 4 rides, longest 81 metres, top speed 21.2 km/h.") }}
+      {{ partial "device.html" (dict "name" "watch-lastwave" "width" 230 "class" "stage-watch" "eager" true "alt" "StokeRanker on Apple Watch while surfing Emerald Beach: 17 minutes 35 in the water, and the last wave, wave 3, was 76 metres long at a top speed of 15.6 km/h.") }}
+    </div>
+  </div>
+  {{ partial "waves.html" . }}
+</section>
+
+<section class="section wrap">
+  <div class="section-heading centered"><p class="eyebrow">How it works</p><h2>Turn the crown. Go surfing.</h2><p>Made for wet hands and cold water: the Digital Crown starts and finishes a surf, and Water Lock keeps the screen out of it in between.</p></div>
+  <ol class="watch-steps">
+    <li>
+      {{ partial "device.html" (dict "name" "watch-start" "width" 240 "alt" "StokeRanker’s start screen on Apple Watch at Emerald Beach: a ring around a surfer and Start, with Turn the crown to start.") }}
+      <h3><span>1</span> Start on the sand.</h3>
+      <p>One full turn of the crown starts the surf. It picks up the break you were looking at on your iPhone, and Water Lock comes on.</p>
+    </li>
+    <li>
+      {{ partial "device.html" (dict "name" "watch-lastwave" "width" 240 "alt" "During a surf: the last wave was 76 metres long at 15.6 km/h, with 19 seconds riding.") }}
+      <h3><span>2</span> Surf. It keeps count.</h3>
+      <p>Each ride is picked up from the Watch’s GPS. A glance shows your time in the water, your waves, and the length and top speed of the last one.</p>
+    </li>
+    <li>
+      {{ partial "device.html" (dict "name" "watch-summary" "width" 240 "alt" "After the surf: Surf saved, 56 minutes 46 in the water, 8 waves.") }}
+      <h3><span>3</span> Finish and pick your board.</h3>
+      <p>Unlock, turn the crown two full turns, and choose the board you rode. The surf heads to your iPhone as soon as it’s in range.</p>
+    </li>
+  </ol>
+  <p class="shots-note">Started by mistake? A start and stop with no waves and hardly any movement asks whether to keep it.</p>
+</section>
+
+<section class="section tint">
+  <div class="wrap row">
+    <div class="row-copy">
+      <p class="eyebrow">Your surfs</p>
+      <h2>Every ride, on the map.</h2>
+      <p>Each surf gets a card with its rides drawn on satellite imagery of the beach. Open one for numbered rides, the longest ride and top speed, how long you were out, and the board you rode.</p>
+      <ul class="ticks">
+        <li>The forecast for that break and morning, beside what you surfed.</li>
+        <li>Rate the waves, and see how the score compares.</li>
+        <li>Your own spots, for places that aren’t on the forecast.</li>
+        <li>A weekly strip of surf days, and your streak.</li>
+      </ul>
+    </div>
+    <figure class="row-shot pair">
+      {{ partial "device.html" (dict "name" "ipad-surfs" "width" 600 "alt" "The Surfs tab on iPad: surf cards in two columns for November, each with yellow ride tracks on a satellite map, rides, longest ride, and top speed.") }}
+      {{ partial "device.html" (dict "name" "iphone-detail" "width" 230 "class" "pair-front" "alt" "A surf at Emerald Beach on iPhone: a satellite map with four numbered rides as yellow arrows and the break’s take-off marked, then 4 rides, longest ride 81 metres, top speed 21.2 km/h, and the board.") }}
+    </figure>
+  </div>
+</section>
+
+<section id="scoreboard" class="band band-scoreboard">
+  <div class="wrap band-grid">
+    <div class="band-copy">
+      <p class="eyebrow">The Scoreboard</p>
+      <h2>Keep score of your stoke.</h2>
+      <p>Your surfing, added up for the week, month, year, or all time, and compared with the time before. Swipe to step back through the seasons.</p>
+      <dl class="metrics">
+        <div><dt>Rides &amp; surfs</dt><dd>and how that compares with last month</dd></div>
+        <div><dt>Distance &amp; riding time</dt><dd>every metre you rode</dd></div>
+        <div><dt>Time in the water</dt><dd>with a chart, month by month</dd></div>
+        <div><dt>Between rides</dt><dd>the median wait for a wave</dd></div>
+        <div><dt>Your bests</dt><dd>longest ride, top speed, most rides: share them</dd></div>
+        <div><dt>Where &amp; on what</dt><dd>your favourite breaks and boards</dd></div>
+      </dl>
+    </div>
+    <div class="band-stage scoreboard-stage">
+      {{ partial "device.html" (dict "name" "ipad-scoreboard" "width" 470 "class" "sb-ipad" "alt" "The Scoreboard on iPad for November: 22 rides in 6 surfs, distance, riding time, time in the water, ride rate, the wait between rides, bests this month, and favourite breaks and boards.") }}
+      {{ partial "device.html" (dict "name" "iphone-scoreboard" "width" 250 "class" "sb-phone" "alt" "The Scoreboard on iPhone for November: 22 rides in 6 surfs, 22 more than October, 1161 metres ridden, 3 minutes 48 riding, 4 hours 11 minutes in the water, 5.3 rides an hour, and a median 7 minutes 36 between rides.") }}
+    </div>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="cards three">
+    <article class="card"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><p class="kicker">Private</p><h3>Your surfs stay yours.</h3><p>Tracks, rides, and your journal stay on your iPhone and Watch. To show the forecast beside a surf, the app asks the server only for that break and time.</p></article>
+    <article class="card"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><p class="kicker">Apple Health</p><h3>A workout, if you want one.</h3><p>Allow it, and each surf is saved to Apple Health as a surfing workout with its route, heart rate, and energy. Say no, and the surf is still recorded.</p></article>
+    <article class="card"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15c3-4 6-4 9 0s6 4 9 0M3 9c3-4 6-4 9 0s6 4 9 0"/></svg><p class="kicker">Better forecasts</p><h3>Your surfs check the forecast.</h3><p>Every rated surf shows what the forecast said for that morning, so you can see which model got it right, and tell Rob when it didn’t.</p></article>
+  </div>
+  <p class="shots-note">Screenshots show invented example surfs. Recording surfs needs an Apple Watch with watchOS 26 or later, paired with an iPhone running iOS 26 or later.</p>
+</section>
+
+{{ partial "access.html" . }}
+{{ end }}

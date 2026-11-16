@@ -1,0 +1,8 @@
+{{- /* A framed device picture from assets/images/devices/<name>.png, served as WebP at 1x and 2x.
+   Call with (dict "name" "iphone-surfs" "width" 320 "alt" "…" "class" "…" "eager" true). */ -}}
+{{- $img := resources.Get (printf "images/devices/%s.png" .name) -}}
+{{- $w := .width | default 320 -}}
+{{- $w2 := math.Min (mul $w 2) $img.Width | int -}}
+{{- $one := $img.Resize (printf "%dx webp q84" $w) -}}
+{{- $two := $img.Resize (printf "%dx webp q84" $w2) -}}
+<img class="device {{ .class }}" src="{{ $one.RelPermalink }}" srcset="{{ $one.RelPermalink }} 1x, {{ $two.RelPermalink }} 2x" width="{{ $one.Width }}" height="{{ $one.Height }}" alt="{{ .alt }}"{{ if .eager }} fetchpriority="high"{{ else }} loading="lazy" decoding="async"{{ end }}>
