@@ -158,6 +158,37 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
 .prose p,.prose li{color:#334e60}.prose li{margin-bottom:.5rem}.prose ul,.prose ol{padding-left:1.5rem}.prose a{font-weight:550}
 .page-cta{margin-top:3rem}
 
+/* wave maps */
+.hero-map{position:relative;margin:0;justify-self:center;max-width:560px}
+.hero-map .map-img{border-radius:18px;box-shadow:0 30px 70px -30px #000a;border:6px solid #fff;transform:rotate(1.5deg)}
+.hero-map figcaption{margin-top:16px;text-align:center;color:#cfe1ec;font-size:var(--fs-sm)}
+.map-img{display:block;width:100%;height:auto;background:#fff}
+.map-pair{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:1040px;margin-inline:auto}
+.map-card{margin:0;padding:14px;background:#fff;border-radius:var(--radius);box-shadow:0 1px 0 var(--line),0 20px 40px -28px #021b2f59}
+.map-card .map-img{border-radius:10px}
+.map-card figcaption{padding:14px 6px 4px;color:var(--muted);font-size:var(--fs-md)}
+.map-card figcaption strong{display:block;color:var(--ink);font-size:1.1rem}
+.map-card.big{width:100%;max-width:640px;margin-inline:auto}
+.row-legend{grid-template-columns:1.2fr .8fr}
+.stats-grid.physics{grid-template-columns:repeat(3,1fr);max-width:900px;margin:0 auto 40px;padding:0}
+.physics p{margin:0;padding:22px 24px;background:#fff;border-radius:18px;box-shadow:0 1px 0 var(--line),0 12px 30px -20px #021b2f40}
+.physics strong{display:block;font-size:clamp(1.9rem,3vw,2.5rem);font-weight:800;letter-spacing:-.04em;line-height:1.1;color:var(--blue)}
+.physics span{font-size:var(--fs-sm);color:var(--muted)}
+.how-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.how-steps li{padding:30px 28px;background:#fff;border-radius:var(--radius);box-shadow:0 1px 0 var(--line),0 20px 40px -28px #021b2f59}
+.how-steps .step{display:inline-grid;place-items:center;width:2.2rem;height:2.2rem;margin-bottom:14px;border-radius:50%;background:var(--sun);color:var(--abyss);font-weight:800}
+.how-steps p{color:var(--muted);font-size:var(--fs-md);margin:0}
+.legend{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;gap:10px}
+.legend li{display:flex;align-items:center;gap:14px;color:var(--muted)}
+.legend strong{color:var(--ink);margin-right:.3em}
+.sw{flex:none;display:inline-grid;place-items:center;width:38px;height:18px;border-radius:4px;font-style:normal;color:var(--ink)}
+.sw-crest{background:linear-gradient(#fff,#fff) center/100% 3px no-repeat,#5aa0cc}
+.sw-close{background:#e07020}.sw-peel{background:#009e73}.sw-ride{background:var(--sun)}
+.sw-dash{background:repeating-linear-gradient(90deg,#777 0 8px,transparent 8px 13px) center/100% 2px no-repeat}
+.sw-thin{background:linear-gradient(#555,#555) center/100% 1px no-repeat}
+.sw-ring{width:18px;margin-inline:10px;border:3px solid #e41a1c;border-radius:50%}
+.sw-star{font-size:1.3rem;line-height:1}
+.small-print{margin-top:1.2rem;font-size:var(--fs-sm);color:var(--muted)}
 @media(max-width:1000px){
   .hero-grid{grid-template-columns:1fr;padding-block:56px 130px}
   .stage{min-height:0;aspect-ratio:1.15;max-width:640px;width:100%;margin:12px auto 0}
@@ -167,6 +198,9 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
   .row.reverse .row-copy{order:0}
   .band-stage{min-height:0}
   .stats-grid{grid-template-columns:1fr 1fr}
+  .how-steps{grid-template-columns:1fr}
+  .stats-grid.physics{grid-template-columns:1fr}
+  .hero-map{max-width:440px}
   .access-panel{grid-template-columns:1fr;gap:28px;padding:40px}
   .access-panel>div:last-child{justify-self:start}
 }
@@ -175,7 +209,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
   .header-inner nav{width:100%;gap:4px 16px}
   .site-header .nav-cta{padding:0 14px}
   .section{padding-block:64px}
-  .cards,.watch-steps,.metrics{grid-template-columns:1fr}
+  .cards,.watch-steps,.metrics,.map-pair{grid-template-columns:1fr}
   .watch-steps .device{width:min(60%,220px)}
   .stage{aspect-ratio:.95}
   .stage-front{bottom:0;width:44%}.stage-watch{bottom:-10px;width:34%}

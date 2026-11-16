@@ -1,0 +1,7 @@
+{{- /* A break map from assets/images/maps/<name>.png as WebP at 1x and 2x. Call with (dict "name" "…" "width" 480 "alt" "…" "eager" true). */ -}}
+{{- $img := resources.Get (printf "images/maps/%s.png" .name) -}}
+{{- $w := .width | default 480 -}}
+{{- $w2 := math.Min (mul $w 2) $img.Width | int -}}
+{{- $one := $img.Resize (printf "%dx webp q86" $w) -}}
+{{- $two := $img.Resize (printf "%dx webp q86" $w2) -}}
+<img class="map-img" src="{{ $one.RelPermalink }}" srcset="{{ $one.RelPermalink }} 1x, {{ $two.RelPermalink }} 2x" width="{{ $one.Width }}" height="{{ $one.Height }}" alt="{{ .alt }}" {{ if .eager }}fetchpriority="high"{{ else }}loading="lazy" decoding="async"{{ end }}>

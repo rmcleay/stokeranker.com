@@ -1,0 +1,98 @@
+{{ define "main" }}
+<section class="hero hero-maps">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Where it breaks</p>
+      <h1>See the waves <span>before you paddle out.</span></h1>
+      <p class="lede">Every daylight hour at every break comes with a map of where the waves are expected to break. StokeRanker follows the forecast swell in over a laser survey of the seabed, so you can see where it peels, where it closes out, and where to sit.</p>
+      <div class="actions">{{ partial "cta.html" "Get early access ↗" }}<a class="ghost" href="#how">How it’s drawn <span aria-hidden="true">→</span></a></div>
+      <ul class="chips" aria-label="At a glance"><li>All 17 breaks</li><li>Every daylight hour, 3 days ahead</li><li>Real wave physics</li></ul>
+    </div>
+    <figure class="hero-map">
+      {{ partial "map.html" (dict "name" "mullaway-tue-9am-sat" "width" 560 "eager" true "alt" "Wave map of Mullaway for Tuesday at 9am: white crest lines bend around the headland, orange marks where waves close out, and bluish-green sections peel off the point and along the beach. Sets about 0.7 m, short sections of rights.") }}
+      <figcaption>Mullaway, Tuesday 9am: sections peel off the point.</figcaption>
+    </figure>
+  </div>
+  {{ partial "waves.html" . }}
+</section>
+
+<section class="section wrap">
+  <div class="section-heading centered"><p class="eyebrow">Same swell. Different beach.</p><h2>One swell, two stories.</h2><p>Tuesday at 9am, the same 6-second south-easterly reaches both beaches. Park Beach’s straight banks meet the crests nearly square on, so most of it closes out. At Mullaway the swell bends around the headland, and sections peel.</p></div>
+  <div class="map-pair">
+    <figure class="map-card">
+      {{ partial "map.html" (dict "name" "park-beach-tue-9am-sat" "width" 500 "alt" "Wave map of Park Beach for Tuesday at 9am: a long orange band along the beach where the waves close out, with only two short bluish-green peeling sections. Sets about 0.8 m.") }}
+      <figcaption><strong>Park Beach</strong> Almost all orange: it closes out along the beach.</figcaption>
+    </figure>
+    <figure class="map-card">
+      {{ partial "map.html" (dict "name" "mullaway-tue-9am-sat" "width" 500 "alt" "Wave map of Mullaway for Tuesday at 9am: crests wrap around the headland, with bluish-green peeling sections off the point and along the beach to the north.") }}
+      <figcaption><strong>Mullaway</strong> Bluish-green sections: it peels off the point.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="how" class="section tint">
+  <div class="wrap">
+    <div class="section-heading centered"><p class="eyebrow">The physics</p><h2>Real wave physics, on the real seabed.</h2><p>A swell forecast tells you what’s arriving out to sea. StokeRanker follows each wave in to the sand with refraction ray tracing, a standard tool of coastal engineering, run over an airborne laser survey of every break’s seabed. It’s the same physics that makes a point break work, run for every break, every hour.</p></div>
+    <div class="stats-grid physics" aria-label="The wave maps in numbers">
+      <p><strong>5 m</strong><span>seabed grid, from the NSW Marine LiDAR survey</span></p>
+      <p><strong>17</strong><span>breaks, each traced on its own seabed</span></p>
+      <p><strong>3 days</strong><span>of daylight hours, redrawn every forecast run</span></p>
+    </div>
+    <ol class="how-steps">
+      <li><span class="step">1</span><h3>Start with the forecast swell.</h3><p>Each hour’s main swell, its period and the direction it comes from, is taken from the marine forecast, out in deep water.</p></li>
+      <li><span class="step">2</span><h3>Trace it over the seabed.</h3><p>Wave rays are traced in across a 5 m grid of the NSW Marine LiDAR seabed survey. Waves slow down in shallow water, so they bend towards banks and reefs, growing where they bunch up and shrinking where they spread out.</p></li>
+      <li><span class="step">3</span><h3>Find where it breaks.</h3><p>Where the water gets shallow enough, the waves break. A crest that meets the bank at an angle peels; one that hits it square on closes out. The map marks both, then picks the take-off and the section you’d ride.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="row reverse row-legend">
+    <div class="row-copy">
+      <p class="eyebrow">Reading the map</p>
+      <h2>Every line means something.</h2>
+      <ul class="legend">
+        <li><i class="sw sw-crest" aria-hidden="true"></i><span><strong>White lines</strong> wave crests, one wave period apart</span></li>
+        <li><i class="sw sw-close" aria-hidden="true"></i><span><strong>Orange</strong> breaks and closes out</span></li>
+        <li><i class="sw sw-peel" aria-hidden="true"></i><span><strong>Bluish green</strong> breaks and peels</span></li>
+        <li><i class="sw sw-ride" aria-hidden="true"></i><span><strong>Yellow</strong> the section you’d ride</span></li>
+        <li><i class="sw sw-dash" aria-hidden="true"></i><span><strong>Dashed line</strong> where the biggest sets break, about 1 in 100 waves</span></li>
+        <li><i class="sw sw-thin" aria-hidden="true"></i><span><strong>Thin line</strong> where half the waves have broken</span></li>
+        <li><i class="sw sw-ring" aria-hidden="true"></i><span><strong>Red ring</strong> the take-off the score is worked out for</span></li>
+        <li><i class="sw sw-star" aria-hidden="true">☆</i><span><strong>Star</strong> the first surfable section the map finds</span></li>
+      </ul>
+      <p class="small-print">The compass underneath shows the swell in blue, chop in grey, and the wind in green.</p>
+    </div>
+    <figure class="row-shot map-card big">
+      {{ partial "map.html" (dict "name" "mullaway-tue-9am" "width" 620 "alt" "Mullaway wave map for Tuesday at 9am, with its legend: crests, closing-out and peeling sections, the forecast take-off ring, and the first short section star.") }}
+    </figure>
+  </div>
+</section>
+
+<section class="section tint">
+  <div class="wrap row">
+    <div class="row-copy">
+      <p class="eyebrow">In the app</p>
+      <h2>On every break page.</h2>
+      <p>Open a break and the Where it breaks card shows the map for the hour you picked. Tap another hour on the chart and the map follows.</p>
+      <ul class="ticks">
+        <li>Every daylight hour for the next three days.</li>
+        <li>Redrawn after each forecast run.</li>
+      </ul>
+    </div>
+    <figure class="row-shot">{{ partial "device.html" (dict "name" "ipad-break" "width" 720 "alt" "StokeRanker break page on iPad for Mullaway on Tuesday at 9am: score 80, good, with 0.7 m sets peeling, and the Where it breaks map beside the hourly chart.") }}</figure>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-heading centered"><p class="eyebrow">Honest about it</p><h2>A forecast, not a photo.</h2></div>
+  <div class="cards three">
+    <article class="card"><p class="kicker">Sand moves</p><h3>Banks shift.</h3><p>The seabed survey is from 2018. Sandbanks move after every big swell, so a bank on the map may have shifted since.</p></article>
+    <article class="card"><p class="kicker">Simplified</p><h3>Some things it can’t see.</h3><p>It doesn’t model waves wrapping into the lee of a headland, or currents, so sheltered corners can show less than turns up.</p></article>
+    <article class="card"><p class="kicker">Checked</p><h3>Held up against the beach.</h3><p>Photos taken on the beach are marked up and compared with the maps, and the width of the surf zone is checked against satellite passes.</p></article>
+  </div>
+  <p class="shots-note">Maps show an example forecast for Tuesday 17 November 2026, not current conditions. Seabed: NSW Marine LiDAR Topo-Bathy 2018, © State Government of NSW and DCCEEW 2019. Aerial imagery © Department of Customer Service 2020.</p>
+</section>
+
+{{ partial "access.html" . }}
+{{ end }}
