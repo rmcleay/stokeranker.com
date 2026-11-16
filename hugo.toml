@@ -6,6 +6,5 @@ enableRobotsTXT = true
 [params]
   description = 'Free surf forecasts for the Coffs Coast, Sawtell to Arrawarra. Compare local breaks, see the best sessions, understand the forecast behind every score and log your surfs on Apple Watch. No subscriptions, ever.'
   contact = 'hello@stokeranker.com'
-  webApp = 'https://spotcheck.stokeranker.com/'
-  ctaSubject = 'StokeRanker TestFlight request'
-  ctaBody = "Hi Rob,\n\nI'd like to try the StokeRanker app on TestFlight.\n\nDevice (iPhone, iPad, Apple Watch): \nLocal breaks: \nHow often you surf them: \n\nThanks!"
+  ctaSubject = 'StokeRanker access request'
+  ctaBody = "Hi Rob,\n\nI'd like to try StokeRanker.\n\nAccess: TestFlight / web app / both\nDevice: \nLocal breaks: \nHow often you surf them: \n\nThanks!"

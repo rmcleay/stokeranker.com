@@ -5,9 +5,7 @@ description = 'How to try StokeRanker, use the forecasts and get in touch.'
 
 ## How do I get access?
 
-The **web app** is open to everyone: go to [spotcheck.stokeranker.com](https://spotcheck.stokeranker.com/). No sign-up, no account.
-
-The iPhone, iPad and Apple Watch app is in a **TestFlight trial**. Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%20TestFlight%20request) with the devices you’d use and Rob will send the invitation.
+Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%20access%20request) and say whether you’d like the **TestFlight trial** for iPhone, iPad and Apple Watch, a **link to the web app**, or both. Rob will reply with the invitation or link. No account or sign-up is needed.
 
 ## Is it free?
 
