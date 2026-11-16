@@ -9,7 +9,7 @@ Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%2
 
 ## Is it free?
 
-Yes, and it will stay that way. No subscriptions, not now, not ever. No ads and no paid tier either. StokeRanker is an independent project, built to surf this stretch of coast better.
+Yes. It costs $0, with no subscription, no ads, and no paid tier. StokeRanker is an independent project, built to surf this stretch of coast better.
 
 ## Which devices does it support?
 
