@@ -51,7 +51,7 @@ Recording a surf on the Apple Watch is optional. Nothing below happens unless yo
 
 ## The web app
 
-**Invite links and your device.** The web app is invite-only. Opening an invite link stores a random device identifier in an essential cookie for up to two years. The server keeps a matching device record: any name you give it, browser information, and when it was first and last seen. This links your submissions to your device without a username or password.
+**Invite links and your device.** Anyone can read the forecasts in the web app and send feedback, without an invite. Spot checks and photos are invite-only. Opening a spot-check invite link stores a random device identifier in an essential cookie for up to two years. The server keeps a matching device record: any name you give it, browser information, and when it was first and last seen. This links your submissions to your device without a username or password.
 
 **Which breaks to show.** If you choose to see only starred breaks or those near you, the web app keeps that choice in a preference cookie on your device for up to a year. The cookie holds the choice, the names of your starred breaks and, for Near me, the names of the breaks within the distance you picked, and your browser sends it with each forecast page so the server can draw the shorter list. For Near me the browser asks for your location; the page works out which breaks are nearby itself and keeps your approximate position (rounded to about a kilometre) in the browser’s storage. Your position is never sent to us, though the list of nearby breaks shows roughly which stretch of coast you’re on. Clearing the site’s data in your browser removes all of it.
 

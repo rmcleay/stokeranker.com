@@ -5,7 +5,9 @@ description = 'How to try StokeRanker, use the forecasts and get in touch.'
 
 ## How do I get access?
 
-Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%20access%20request) and say whether you’d like the **TestFlight trial**, a **link to the web app**, or both. Rob will reply with the invitation or link. There is no public signup form.
+The **web app** is open to everyone: go to [spotcheck.stokeranker.com](https://spotcheck.stokeranker.com/). No sign-up, no account.
+
+The iPhone, iPad and Apple Watch app is in a **TestFlight trial**. Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%20TestFlight%20request) with the devices you’d use and Rob will send the invitation.
 
 ## Is it free?
 
@@ -41,7 +43,7 @@ Rate the waves first and the app then shows what the forecast said for the time 
 
 ## Can I report a forecast that looks wrong?
 
-Yes, please. Use the feedback button on a forecast, or email Rob with the break, date, time and what you saw. Spot checks with photos are open to a small group of regular observers on the web app. Ask Rob if you’d like to help.
+Yes, please. Use the feedback button on a forecast, or email Rob with the break, date, time and what you saw. Spot checks with photos are invite-only, for a small group of regular observers on the web app. Ask Rob if you’d like to help.
 
 ## Can I rely on it for safety?
 
