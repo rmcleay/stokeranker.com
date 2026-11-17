@@ -45,7 +45,9 @@ Yes, please. Use the feedback button on a forecast, or email Rob with the break,
 
 ## Can I rely on it for safety?
 
-Use it to help plan, alongside your own assessment and current official warnings. Conditions change, and the forecast cannot assess your ability, rips, hazards, or whether a particular paddle-out is safe.
+No. It’s a forecast, not a lifeguard. It can’t see the rip in front of you, the rocks showing at low tide, or how far out of your depth you’d be. If you’re leaving it to an app to decide whether to paddle out, leave the board in the car.
+
+Look at the water, check the official warnings, and know your limits. If in doubt, don’t go out.
 
 ## What happens to my data?
 
