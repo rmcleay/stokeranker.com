@@ -51,7 +51,20 @@ Look at the water, check the official warnings, and know your limits. If in doub
 
 ## What happens to my data?
 
-Feedback and spot checks are optional. The [privacy policy](/privacy/) explains what is stored on your device, what reaches the service, and how to request deletion.
+Feedback and spot checks are optional. The [privacy policy](/privacy/) explains what is stored on your device, what reaches the service, and which copies you can delete.
+
+## How do I delete all my stored data?
+
+There is no single “delete everything” button. Deleting a surf in the app hides it but keeps its track and other data. Your private journal is held on your devices and in your iCloud, which we cannot access or delete for you. Shared ratings are deidentified: we do not know which ratings belong to you, so we cannot identify them for deletion in response to a request.
+
+1. **Stop sharing ratings.** Turn off **Settings → Surf journal → Share ratings** on each device to stop new submissions. This does not erase ratings already sent. If you want to withdraw individual ratings first, clear them while sharing is still enabled and allow the app to connect: it requests removal using the identifiers stored on that device.
+2. **Remove the device copies.** Delete StokeRanker from every iPhone and iPad that holds your journal, and remove the Watch app too. Choose **Delete App**, rather than offloading it or just removing its Home Screen icon. Do this before deleting the iCloud copy, so a device with an old journal cannot upload it again. The rating-sharing identifier is stored separately in the device’s Keychain and may survive uninstalling; removing the app does not erase the matching server record.
+3. **Remove the iCloud copy.** On your iPhone or iPad, open **Settings → your name → iCloud → Storage** (or **Manage Account Storage**), select **StokeRanker**, and use the option to delete its data. This removes the private cloud journal, including hidden surfs. Turning sync off alone does not erase it. If StokeRanker is not listed or no deletion option appears, contact us for help; we cannot delete your private iCloud data on your behalf. Apple explains [how third-party app data is stored in iCloud](https://support.apple.com/en-ie/guide/icloud/mm62d92d6b3e/icloud).
+4. **Remove Health data separately.** In the Health app, review StokeRanker under your profile’s **Apps** or **Apps and Services**, and delete the data it saved. Deleting StokeRanker or its iCloud journal does not delete Health workouts or routes. Keep data from other apps unless you also want to remove it.
+5. **Check backups, files, and shared copies.** Remove any exported cards or original import files you no longer want, including copies in Files, Photos, or other services and their Recently Deleted folders. Review device backups separately: older backups may contain app data, and restoring one can bring it back. Apple’s [iCloud storage guide](https://support.apple.com/en-us/108922) explains backup management. Avoid deleting a whole-device backup unless you intend to lose the other data in it too. Copies sent to other people or services must be removed there.
+6. **Clear the web app’s local data.** Clear the StokeRanker web app’s cookies and website data in your browser. This removes local preferences and the browser’s device identifier; it does not delete server records.
+
+These steps remove the copies you control; they do not erase previously shared ratings from our server. Server retention and backups are described in the [privacy policy](/privacy/).
 
 ## Contact
 

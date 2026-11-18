@@ -1,18 +1,18 @@
 +++
 title = 'Privacy policy'
 description = 'How StokeRanker handles information in the app, the web app, and this website.'
-effective = '16 November 2026'
+effective = '18 November 2026'
 +++
 
-StokeRanker is an independent, non-commercial surf forecasting project run by Robert (Rob) McLeay (“we” below). This policy covers the iPhone and iPad app, the Apple Watch app, the StokeRanker web app, and stokeranker.com. Questions and requests: [privacy@stokeranker.com](mailto:privacy@stokeranker.com).
+StokeRanker is an independent, non-commercial surf forecasting project run by Robert (Rob) McLeay (“we” below). This policy covers the iPhone and iPad app, the Apple Watch app, the StokeRanker web app, and stokeranker.com. Privacy questions: [privacy@stokeranker.com](mailto:privacy@stokeranker.com).
 
 ## In short
 
 - No accounts, no advertising, no analytics, and no tracking across apps or websites.
 - Reading forecasts in the app doesn't ask for your photos, camera, or contacts, and sends nothing that identifies you. It asks for your location only if you choose Near me, and that stays on your device.
-- If you record surfs with the Apple Watch, your tracks, rides, and surf journal stay on your iPhone and Watch, and workouts go to Apple Health only if you allow it. None of it is sent to our server.
+- Recorded and imported surfs, tracks, rides, and journal entries sync through your private iCloud. Workouts go to Apple Health only if you allow it. Tracks and motion logs are never sent to our server; shared waves ratings are described below.
 - Our servers see your IP address when you connect, like any website, and may keep it in logs for running and securing the service.
-- What you choose to send through the web app (feedback, spot checks, and photos) is stored so we can check and improve the forecasts. You can ask us to delete it.
+- What you choose to send through the web app (feedback, spot checks, and photos) is stored so we can check and improve the forecasts. These submissions are separate from your private iCloud journal.
 - We never sell information or share it for advertising.
 
 ## The iPhone and iPad app
@@ -29,25 +29,27 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 
 If you choose Near me under Breaks, the app asks for your approximate location while you’re using it, rounds it to about a kilometre, and keeps it on your device to pick the nearby breaks. It’s never sent to our server. Your starred breaks stay on the device too. You can turn location off in Settings at any time.
 
-The app has no forms: it doesn’t send feedback, spot checks, or photos.
+The app can send waves ratings as spot checks, as described below. It does not upload your photos or motion logs to our server.
 
 ## Surfs and the Apple Watch
 
-Recording a surf on the Apple Watch is optional. Nothing below happens unless you start a surf on your Watch, or import surf history files yourself.
+Recording a surf on the Apple Watch is optional. You can also import surf history yourself and add spots and boards to your journal.
 
 **What the Watch records.** While you record, the Watch app uses its location to draw your track and count your rides, and wrist motion and air pressure to help tell how rides start. It asks for location and Motion & Fitness access the first time. You can turn either off in Settings at any time.
 
-**Where surfs are kept.** The Watch sends each surf, its track, and its motion log straight to the StokeRanker app on your paired iPhone. They are kept there in your surf journal, with the break, board, ratings, spots, and boards you add, in the app’s own storage on the device, encrypted until you first unlock the phone after a restart. They stay on your devices and may be included in your device backups. Surf history files you import are read on the device and not uploaded.
+**Where surfs are kept.** The Watch sends each surf, its track, and its motion log straight to the StokeRanker app on your paired iPhone. They are kept there in your surf journal, with the break, board, ratings, spots, and boards you add, in the app’s own storage on the device, encrypted until you first unlock the phone after a restart. Recorded surfs, imported surf history, journal entries, spots, and boards sync between your iPhone and iPad through your private iCloud database when iCloud is available. Apple hosts this data under your Apple Account and it counts against your iCloud storage, under [Apple’s privacy policy](https://www.apple.com/legal/privacy/). We cannot browse or delete your private iCloud journal. Full motion logs stay on the phone; only snippets around rides sync. The original files you import are read on the device; the imported recordings become part of the synced journal. Local data may also be included in your device backups.
 
-**Apple Health.** If you allow it, each surf is saved to Apple Health as a surfing workout with its route, and the Watch reads your heart rate and active energy during the surf. Apple Health keeps that under [Apple’s privacy policy](https://www.apple.com/legal/privacy/); we never receive it. You can change these permissions in the Health app.
+**Apple Health.** If you allow it, each surf is saved to Apple Health as a surfing workout with its route, and the Watch reads your heart rate and energy (active and resting) during the surf. Apple Health keeps that under [Apple’s privacy policy](https://www.apple.com/legal/privacy/); we never receive it. You can change these permissions in the Health app.
 
 **Maps of your surfs.** Surf maps and thumbnails use Apple’s MapKit, so Apple receives the map requests for the area of each surf, as with the Map tab.
 
-**The forecast beside a surf.** To show the forecast beside a surf, the app asks the StokeRanker server for the forecast at that break and time, with your surfer profile, model, and forecast choices, like any other forecast request. Your track, motion, heart rate, and journal are never sent to our server. Like any request, it reaches our server with your IP address and may appear in its logs, so those logs can show that a device asked about a given break and time.
+**The forecast beside a surf.** To show the forecast beside a surf, the app asks the StokeRanker server for the forecast at that break and time, with your surfer profile, model, and forecast choices, like any other forecast request. Your track, motion, and heart rate are never sent to our server. Only the journal fields described under Shared ratings below are sent when you share ratings. Like any request, it reaches our server with your IP address and may appear in its logs, so those logs can show that a device asked about a given break and time.
 
-**Sharing.** If you share a surf card, the app makes an image and hands it to the share sheet. Where it goes from there is up to you.
+**Shared ratings.** Settings → Surf journal → Share ratings is on by default. When you rate the waves at a confirmed StokeRanker break, the app sends the break, the time halfway through the surf, your waves rating, and the set size you entered to our server as a spot check. Existing eligible ratings may be sent when sharing starts. Ratings at your own spots and ratings merely imported from another app are not sent. Submissions are linked to a random identifier for your device and an identifier for the surf, with no name or StokeRanker account. We use them to check and improve forecasts. While sharing is enabled, changing or clearing a rating, or deleting its surf, queues an update or removal on the server; it takes effect when the request succeeds. Turning sharing off stops new submissions but does not erase earlier ones. Shared ratings are deidentified: we do not know which ratings belong to you, so we cannot identify them for deletion in response to a request. An invite code marks ratings for use in model checks; it does not control whether the server stores them.
 
-**Deleting surfs.** Deleting a surf deletes its track; deleting the app removes the journal. Workouts saved to Apple Health stay there until you delete them in the Health app.
+**Sharing a card.** If you share a surf card, the app makes an image and hands it to the share sheet. Where it goes from there is up to you.
+
+**Deleting surfs.** Deleting a surf hides it from the journal but retains its data, including its track, on your devices and in iCloud. Deleting the app removes its local journal, not the iCloud copy or submissions already stored on our server. Workouts saved to Apple Health stay there until you delete them in the Health app. See [How do I delete all my stored data?](/help/#how-do-i-delete-all-my-stored-data) for the separate steps.
 
 ## The web app
 
@@ -69,13 +71,13 @@ If you email us, we receive your address and whatever you write, and use them to
 
 ## Who else handles information
 
-Only the hosting and email providers needed to run the service and answer messages, for those purposes alone, plus Apple for maps and TestFlight as described above. We may disclose information if the law requires it. The weather and wave data behind the forecasts is fetched by our server; nothing you send is passed to those data providers.
+Only the hosting and email providers needed to run the service and answer messages, for those purposes alone, plus Apple for maps, iCloud, Health, and TestFlight as described above. We may disclose information if the law requires it. The weather and wave data behind the forecasts is fetched by our server; nothing you send is passed to those data providers.
 
 ## Keeping and deleting information
 
-Feedback, spot checks, photos, and marks are kept while they’re useful for checking and improving the forecasts; there is no automatic expiry yet. Logs, email, and backups are kept on their own schedules.
+Feedback, spot checks (including shared surf ratings), photos, and marks are kept while they’re useful for checking and improving the forecasts; there is no automatic expiry yet. Logs, email, and backups are kept on their own schedules.
 
-You can delete your own spot checks in the web app from the device that sent them. To delete anything else (feedback, photos, marks, a device record, or emails), write to [privacy@stokeranker.com](mailto:privacy@stokeranker.com) with enough detail to find it, such as the break, the date and time, and the device name. We may need to check that it’s yours. Copies in backups disappear as those backups are replaced. Clearing your browser’s cookie doesn’t delete anything on the server, and the web app may then no longer recognise your earlier submissions.
+Shared ratings are deidentified: we do not know which ratings belong to you, so we cannot identify them for deletion in response to a request. Turning off sharing does not erase previous submissions. While sharing is enabled, the app can request removal of a rating using the identifiers held on the submitting device, as described above. You can delete your own web spot checks from the browser that sent them. Clearing browser data does not delete server records and may prevent the web app from recognising earlier submissions. Copies in backups disappear as those backups are replaced. See [How do I delete all my stored data?](/help/#how-do-i-delete-all-my-stored-data) for removing device, iCloud, and Health copies.
 
 ## This website
 
@@ -83,7 +85,7 @@ stokeranker.com uses no cookies, analytics, external fonts, or third-party scrip
 
 ## Children
 
-StokeRanker isn’t aimed at children. If you think a child has sent us personal information, email [privacy@stokeranker.com](mailto:privacy@stokeranker.com) and we’ll find and remove it.
+StokeRanker isn’t aimed at children. If you think a child has sent us personal information, email [privacy@stokeranker.com](mailto:privacy@stokeranker.com) so we can investigate.
 
 ## Changes
 
