@@ -17,8 +17,9 @@ The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. R
 
 ## Where does it cover?
 
-86 breaks on the NSW North Coast, from Port Macquarie to Tweed Heads, south to north:
+97 breaks on the NSW North Coast, from Port Macquarie to Tweed Heads, south to north:
 
+- **Port Macquarie to Point Plomer:** Lighthouse Beach, Shelly Beach, Nobbys Beach, Flynns Beach, Oxley Beach, Town Beach, North Breakwall, North Shore Beach, Queens Head, Point Plomer, Big Hill Point.
 - **Crescent Head and Hat Head:** Racecourse, Delicate Nobby, Goolawah, Crescent Head, Hungry Gate, Third Beach, Connors Beach, Hat Head.
 - **South West Rocks to Nambucca:** North Smoky, Gap Beach, Little Bay, South West Rocks Main Beach, South West Rocks Back Beach, Laggers Point, Grassy Head, Scotts Head, Nambucca Heads, Nambucca Main Beach, Valla Beach, Wenonah Head, Hungry Head, North Beach Mylestom.
 - **Coffs Coast:** Sawtell Southies, Sawtell Island, Sawtell Main, Sawtell Trapdoors, Gallows, North Wall, Park Beach, Macauleys, Diggers Beach, Sluttys, Moonee Beach, Shellys, Serenity, Emerald Beach, Sandy Beach, Woolgoolga Back Beach, Woolgoolga Beach, Mullaway, Mullawarra, Arrawarra, Corindi Beach, Red Rock.

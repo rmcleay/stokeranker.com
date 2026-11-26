@@ -4,7 +4,7 @@ title = 'StokeRanker'
 disableKinds = ['taxonomy', 'term', 'rss']
 enableRobotsTXT = true
 [params]
-  description = 'Free surf forecasts for 86 breaks on the NSW North Coast, Port Macquarie to Tweed Heads. Compare local breaks, see the best sessions, understand the forecast behind every score, and log your surfs on Apple Watch. No subscription, no ads.'
+  description = 'Free surf forecasts for 97 breaks on the NSW North Coast, Port Macquarie to Tweed Heads. Compare local breaks, see the best sessions, understand the forecast behind every score, and log your surfs on Apple Watch. No subscription, no ads.'
   contact = 'hello@stokeranker.com'
   ctaSubject = 'StokeRanker access request'
   ctaBody = "Hi Rob,\n\nI'd like to try StokeRanker.\n\nAccess: TestFlight / web app / both\nDevice: \nLocal breaks: \nHow often you surf them: \n\nThanks!"
