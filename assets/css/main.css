@@ -84,6 +84,14 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
 .card p{color:var(--muted);font-size:var(--fs-md);margin-bottom:.8rem}
 .card .kicker{font-size:var(--fs-xs);font-weight:750;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:.5rem}
 .icon{width:44px;height:44px;padding:10px;margin-bottom:18px;border-radius:14px;background:var(--foam);fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.points{list-style:none;margin:0 0 .9rem;padding:0;color:var(--muted);font-size:var(--fs-md)}
+.points li{position:relative;padding:.45rem 0 .45rem 1.1rem;border-top:1px solid var(--line)}
+.points li:first-child{border-top:0;padding-top:.2rem}
+.points li::before{content:"";position:absolute;left:0;top:calc(.45rem + .75em - 3px);width:6px;height:6px;border-radius:50%;background:var(--blue)}
+.points li:first-child::before{top:calc(.2rem + .75em - 3px)}
+.card-wide .points{display:grid;grid-template-columns:repeat(4,1fr);gap:0 24px}
+.card-wide .points li{border-top:0;padding-top:.2rem}
+.card-wide .points li::before{top:calc(.2rem + .75em - 3px)}
 .more{font-weight:700;font-size:var(--fs-sm);text-decoration:none}.more:hover{text-decoration:underline}
 .row{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
 .row.reverse .row-copy{order:2}
@@ -201,6 +209,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
   .stage{min-height:0;aspect-ratio:1.15;max-width:640px;width:100%;margin:12px auto 0}
   .stage-surfs{aspect-ratio:1.1}
   .cards{grid-template-columns:1fr 1fr}
+  .card-wide .points{grid-template-columns:1fr 1fr}
   .row,.band-grid,.story-grid{grid-template-columns:1fr;gap:40px}
   .row.reverse .row-copy{order:0}
   .band-stage{min-height:0}
@@ -217,6 +226,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
   .site-header .nav-cta{padding:0 14px}
   .section{padding-block:64px}
   .cards,.watch-steps,.metrics,.map-pair{grid-template-columns:1fr}
+  .card-wide .points{grid-template-columns:1fr}
   .watch-steps .device{width:min(60%,220px)}
   .stage{aspect-ratio:.95}
   .stage-front{bottom:0;width:44%}.stage-watch{bottom:-10px;width:34%}
