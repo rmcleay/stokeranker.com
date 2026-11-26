@@ -87,6 +87,9 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
 .shot-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
 .shot-card .snip{aspect-ratio:2/1;overflow:hidden;background:var(--foam);border-bottom:1px solid var(--line)}
 .shot-card .snippet{display:block;width:100%;height:100%;object-fit:cover}
+.shot-card .snip.inset{display:flex;align-items:center;justify-content:center;padding:14px 18px}
+.shot-card .snip.inset .snippet{width:auto;height:100%;max-width:100%;object-fit:contain;border-radius:12px;box-shadow:0 1px 0 var(--line),0 10px 24px -14px #021b2f66}
+.shot-card .snip.bare .snippet{border-radius:0;box-shadow:none}
 .shot-card .shot-text{padding:20px 24px 22px}
 .shot-card h3{margin-bottom:.35rem}
 .shot-card p:last-of-type{margin-bottom:.6rem}
