@@ -1,0 +1,8 @@
+{{- /* A cropped app screenshot from assets/images/snippets/<name>.png, served as WebP at 1x and 2x.
+   Call with (dict "name" "compare" "width" 380 "alt" "…"). */ -}}
+{{- $img := resources.Get (printf "images/snippets/%s.png" .name) -}}
+{{- $w := .width | default 380 -}}
+{{- $w2 := math.Min (mul $w 2) $img.Width | int -}}
+{{- $one := $img.Resize (printf "%dx webp q86" $w) -}}
+{{- $two := $img.Resize (printf "%dx webp q86" $w2) -}}
+<img class="snippet" src="{{ $one.RelPermalink }}" srcset="{{ $one.RelPermalink }} 1x, {{ $two.RelPermalink }} 2x" width="{{ $one.Width }}" height="{{ $one.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async">
