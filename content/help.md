@@ -44,9 +44,8 @@ Each break gets a score out of 100 for each session, with a plain-word summary f
 
 The forecast source (ECMWF or GFS) supplies the wind and waves. The scoring model decides what those conditions mean at each break, so you can pick the one that suits how you surf:
 
-- **Everyday** scores the typical wave at each break. It suits surfers who want a wave every few minutes, and it is the fixed reference the others are measured against.
-- **Sets** lets the sets decide on small days, less a charge for the wait between them. It suits surfers happy to sit and wait for a set.
-- **Live-Buoy Sets** is Sets with today’s swell corrected to the nearest live wave buoy: Crowdy Head, Coffs Harbour, or Byron Bay. It helps most on southerly swell days at sheltered breaks, and only changes the first day of the forecast.
+- **Everyday** scores the typical wave at each break. It suits surfers who want a wave every few minutes, and it is the fixed reference other models are measured against.
+- **Live-Buoy Sets** lets the sets decide on small days, less a charge for the wait between them, and corrects today’s swell to the nearest live wave buoy: Crowdy Head, Coffs Harbour, or Byron Bay. It suits surfers happy to sit and wait for a set. The buoy correction helps most on southerly swell days at sheltered breaks, and only changes the first day of the forecast.
 
 You can switch the model and the forecast source separately. The models keep improving: rated surfs logged on the beach are checked against every model, the models are refitted as the checks build up, and new ones are added as they’re tested. Telling Rob which combination matched the beach is the most useful thing you can do in the trial.
 
