@@ -5,7 +5,10 @@ description = 'How to try StokeRanker, use the forecasts, and get in touch.'
 
 ## How do I get access?
 
-Email [hello@stokeranker.com](mailto:hello@stokeranker.com?subject=StokeRanker%20access%20request) and say whether you’d like the **TestFlight trial** for iPhone, iPad, and Apple Watch, a **link to the web app**, or both. Rob will reply with the invitation or link. No account or sign-up is needed.
+- **iPhone, iPad, and Apple Watch:** install Apple’s TestFlight app, then open the [StokeRanker TestFlight beta](https://testflight.apple.com/join/22wk1tsR) on your iPhone or iPad and tap **Accept**. The Watch app comes with it.
+- **Any browser:** open the web app at [beta.stokeranker.com](https://beta.stokeranker.com/).
+
+No account or sign-up is needed. Questions? Email [hello@stokeranker.com](mailto:hello@stokeranker.com).
 
 ## Is it free?
 

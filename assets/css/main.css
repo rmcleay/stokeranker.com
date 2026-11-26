@@ -137,7 +137,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
 .access-panel h2{max-width:15ch}
 .access-panel p:not(.eyebrow){color:#cfe1ec}
 .access-panel a{color:#fff}
-.access-panel .button{margin-bottom:20px}
+.access-panel .actions{margin:0 0 20px}
 .small-note{font-size:var(--fs-sm);line-height:1.7;color:var(--muted)}
 .access-panel .small-note{color:#b9d2e1;margin-bottom:12px}
 

@@ -15,7 +15,7 @@ The publish directory is `public/`; deploy that directory rather than the reposi
 
 ## Editing
 
-- `hugo.toml`: canonical URL, contact address and email CTA text.
+- `hugo.toml`: canonical URL, contact address, and the TestFlight and web app links.
 - `layouts/home.html`: landing-page copy and screenshot descriptions.
 - `layouts/surfs.html` and `content/surfs.md`: the Surf tracking page (Apple Watch recording, Surfs tab and Scoreboard).
 - `layouts/_partials/device.html`: framed device pictures from `assets/images/devices/<name>.png`, resized to WebP at 1x and 2x by Hugo. `access.html` is the shared access panel; `waves.html` the hero's wave edge.
@@ -23,7 +23,7 @@ The publish directory is `public/`; deploy that directory rather than the reposi
 - `assets/css/main.css`: responsive styles, bundled and fingerprinted by Hugo.
 - `assets/images/devices/`: app screenshots framed in Apple's simulator device artwork (iPhone 18 Pro, iPad Air 13-inch, Apple Watch Ultra). Made with `scripts/frame-screenshot.swift` in the stokeranker-ios repo from simulator captures of the app's synthetic journal (`STOKERANKER_TEST_JOURNAL=synthetic`, `STOKERANKER_TEST_JOURNAL_AS_WATCH=1`) and the Watch demo (`-demo lastwave -demoBreak "Emerald Beach"`), so no personal data is shown. `static/images/`: branding.
 
-No JavaScript, third-party fonts, analytics or cookies are used by this public site. All access CTAs open a prefilled email; invite URLs are deliberately not published.
+No JavaScript, third-party fonts, analytics or cookies are used by this public site. Access CTAs link to the public TestFlight beta and the web app (`testflight` and `webApp` in `hugo.toml`). Spot-check invite links are still never published.
 
 ## Publishing
 
