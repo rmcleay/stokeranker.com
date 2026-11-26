@@ -20,7 +20,7 @@ The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. R
 
 ## Where does it cover?
 
-97 breaks on the NSW North Coast, from Port Macquarie to Tweed Heads, south to north:
+99 breaks on the NSW North Coast, from Port Macquarie to Tweed Heads, south to north:
 
 - **Port Macquarie to Point Plomer:** Lighthouse Beach, Shelly Beach, Nobbys Beach, Flynns Beach, Oxley Beach, Town Beach, North Breakwall, North Shore Beach, Queens Head, Point Plomer, Big Hill Point.
 - **Crescent Head and Hat Head:** Racecourse, Delicate Nobby, Goolawah, Crescent Head, Hungry Gate, Third Beach, Connors Beach, Hat Head.
@@ -28,7 +28,7 @@ The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. R
 - **Coffs Coast:** Sawtell Southies, Sawtell Island, Sawtell Main, Sawtell Trapdoors, Gallows, North Wall, Park Beach, Macauleys, Diggers Beach, Sluttys, Moonee Beach, Shellys, Serenity, Emerald Beach, Sandy Beach, Woolgoolga Back Beach, Woolgoolga Beach, Mullaway, Mullawarra, Arrawarra, Corindi Beach, Red Rock.
 - **Wooli to Evans Head:** Wooli River Mouth, Wooli Beach, Diggers Camp, Minnie Water, Sandon, Sandon (north side), Brooms Head, Spooky Beach, Angourie Point, Yamba Main Beach, Turners Beach, Iluka North Wall, Iluka Bluff, Goanna Headland, Chinamans Beach, Evans Head North Wall.
 - **Ballina to Byron:** South Ballina, Ballina North Wall, Lighthouse Beach, Shelly Beach, Sharpes Beach, Flat Rock, Skennars Head, Boulder Beach, Lennox Point, Lennox Head Main Beach, Broken Head, Byron Main Beach, Clarkes Beach, The Pass, Wategos, Belongil.
-- **Brunswick to Tweed Heads:** Brunswick Heads, South Golden Beach, Hastings Point, Norries Head, Cabarita Beach, Kingscliff, Dreamtime Beach, Fingal Head, Letitia Spit, Duranbah.
+- **Brunswick to Tweed Heads:** Brunswick Heads, South Golden Beach, Pottsville, Hastings Point, Bogangar, Norries Head, Cabarita Beach, Kingscliff, Dreamtime Beach, Fingal Head, Letitia Spit, Duranbah.
 
 More of the coast will be added over time. Each break is modelled on its own seabed, rather than one forecast for the whole coastline.
 
