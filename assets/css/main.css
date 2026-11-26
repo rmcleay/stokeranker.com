@@ -94,7 +94,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
 .shot-card h3{margin-bottom:.35rem}
 .shot-card p:last-of-type{margin-bottom:.6rem}
 .card-wide.shot-card{flex-direction:row;align-items:center}
-.card-wide.shot-card .snip{flex:0 0 50%;border-bottom:0;border-right:1px solid var(--line)}
+.card-wide.shot-card .snip{flex:0 0 50%;aspect-ratio:auto;border-bottom:0;border-right:1px solid var(--line)}
 .card-wide.shot-card .shot-text{padding:24px 36px}
 .more{font-weight:700;font-size:var(--fs-sm);text-decoration:none}.more:hover{text-decoration:underline}
 .row{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
@@ -230,7 +230,7 @@ nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-
   .section{padding-block:64px}
   .cards,.watch-steps,.metrics,.map-pair{grid-template-columns:1fr}
   .card-wide.shot-card{flex-direction:column}
-  .card-wide.shot-card .snip{flex:none;width:100%;border-right:0;border-bottom:1px solid var(--line)}
+  .card-wide.shot-card .snip{flex:none;width:100%;aspect-ratio:auto;border-right:0;border-bottom:1px solid var(--line)}
   .watch-steps .device{width:min(60%,220px)}
   .stage{aspect-ratio:.95}
   .stage-front{bottom:0;width:44%}.stage-watch{bottom:-10px;width:34%}
