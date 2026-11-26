@@ -13,11 +13,24 @@ Yes. It costs $0, with no subscription, no ads, and no paid tier. StokeRanker is
 
 ## Which devices does it support?
 
-The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. Recording surfs needs an Apple Watch with watchOS 26 or later, paired with your iPhone. Install Apple’s TestFlight app to accept a beta invitation. The web app works in a modern browser, for forecasts only.
+The native app is built for iPhone and iPad running iOS or iPadOS 26 or later. Recording surfs needs an Apple Watch with watchOS 26 or later, paired with your iPhone. Install Apple’s TestFlight app to accept a beta invitation. The iPhone and iPad app also has Home Screen and Lock Screen widgets. The web app works in a modern browser, for forecasts only.
 
 ## Where does it cover?
 
-Seventeen breaks on the Coffs Coast, from Sawtell to Arrawarra: Sawtell Southies, Sawtell Main, Sawtell Island, Sawtell Trapdoors, Gallows, North Wall, Park Beach, Macauleys, Emerald Beach, Shellys, Sandy Beach, Serenity, Woolgoolga Beach, Woolgoolga Back Beach, Mullawarra, Mullaway, and Arrawarra. More of the coast will be added over time. Each break is modelled on its own, rather than one forecast for the whole coastline.
+86 breaks on the NSW North Coast, from Port Macquarie to Tweed Heads, south to north:
+
+- **Crescent Head and Hat Head:** Racecourse, Delicate Nobby, Goolawah, Crescent Head, Hungry Gate, Third Beach, Connors Beach, Hat Head.
+- **South West Rocks to Nambucca:** North Smoky, Gap Beach, Little Bay, South West Rocks Main Beach, South West Rocks Back Beach, Laggers Point, Grassy Head, Scotts Head, Nambucca Heads, Nambucca Main Beach, Valla Beach, Wenonah Head, Hungry Head, North Beach Mylestom.
+- **Coffs Coast:** Sawtell Southies, Sawtell Island, Sawtell Main, Sawtell Trapdoors, Gallows, North Wall, Park Beach, Macauleys, Diggers Beach, Sluttys, Moonee Beach, Shellys, Serenity, Emerald Beach, Sandy Beach, Woolgoolga Back Beach, Woolgoolga Beach, Mullaway, Mullawarra, Arrawarra, Corindi Beach, Red Rock.
+- **Wooli to Evans Head:** Wooli River Mouth, Wooli Beach, Diggers Camp, Minnie Water, Sandon, Sandon (north side), Brooms Head, Spooky Beach, Angourie Point, Yamba Main Beach, Turners Beach, Iluka North Wall, Iluka Bluff, Goanna Headland, Chinamans Beach, Evans Head North Wall.
+- **Ballina to Byron:** South Ballina, Ballina North Wall, Lighthouse Beach, Shelly Beach, Sharpes Beach, Flat Rock, Skennars Head, Boulder Beach, Lennox Point, Lennox Head Main Beach, Broken Head, Byron Main Beach, Clarkes Beach, The Pass, Wategos, Belongil.
+- **Brunswick to Tweed Heads:** Brunswick Heads, South Golden Beach, Hastings Point, Norries Head, Cabarita Beach, Kingscliff, Dreamtime Beach, Fingal Head, Letitia Spit, Duranbah.
+
+More of the coast will be added over time. Each break is modelled on its own seabed, rather than one forecast for the whole coastline.
+
+## How do I choose which breaks I see?
+
+The first time you open StokeRanker it asks where you surf from, by your phone’s location or by searching for a town, and how far you’ll drive, from 5 to 100 km. The lists and rankings then show the breaks in that area, plus any you star, wherever they are on the coast. Tap the area chip at the top to change it.
 
 ## What do the scores mean?
 
@@ -29,7 +42,7 @@ The forecast source (ECMWF or GFS) supplies the wind and waves. The scoring mode
 
 - **Everyday** scores the typical wave at each break. It suits surfers who want a wave every few minutes, and it is the fixed reference the others are measured against.
 - **Sets** lets the sets decide on small days, less a charge for the wait between them. It suits surfers happy to sit and wait for a set.
-- **Live-Buoy Sets** is Sets with today’s swell corrected to the live Coffs Harbour wave buoy. It helps most on southerly swell days at sheltered breaks, and only changes the first day of the forecast.
+- **Live-Buoy Sets** is Sets with today’s swell corrected to the nearest live wave buoy: Crowdy Head, Coffs Harbour, or Byron Bay. It helps most on southerly swell days at sheltered breaks, and only changes the first day of the forecast.
 
 You can switch the model and the forecast source separately. The models keep improving: rated surfs logged on the beach are checked against every model, the models are refitted as the checks build up, and new ones are added as they’re tested. Telling Rob which combination matched the beach is the most useful thing you can do in the trial.
 
@@ -41,7 +54,7 @@ Rate the waves first and the app then shows what the forecast said for the time 
 
 ## Can I report a forecast that looks wrong?
 
-Yes, please. Use the feedback button on a forecast, or email Rob with the break, date, time, and what you saw. Spot checks with photos are invite-only, for a small group of regular observers on the web app. Ask Rob if you’d like to help.
+Yes, please. Use the feedback button on a forecast, or email Rob with the break, date, time, and what you saw. Spot checks with photos are invite-only, for a small group of regular observers. Invited observers log them from the binoculars on a break page in the app, or in the web app. Ask Rob if you’d like to help.
 
 ## Can I rely on it for safety?
 

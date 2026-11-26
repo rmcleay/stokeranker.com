@@ -1,7 +1,7 @@
 +++
 title = 'Privacy policy'
 description = 'How StokeRanker handles information in the app, the web app, and this website.'
-effective = '18 November 2026'
+effective = '26 November 2026'
 +++
 
 StokeRanker is an independent, non-commercial surf forecasting project run by Robert (Rob) McLeay (“we” below). This policy covers the iPhone and iPad app, the Apple Watch app, the StokeRanker web app, and stokeranker.com. Privacy questions: [privacy@stokeranker.com](mailto:privacy@stokeranker.com).
@@ -9,15 +9,15 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 ## In short
 
 - No accounts, no advertising, no analytics, and no tracking across apps or websites.
-- Reading forecasts in the app doesn't ask for your photos, camera, or contacts, and sends nothing that identifies you. It asks for your location only if you choose Near me, and that stays on your device.
+- Reading forecasts in the app doesn't ask for your photos, camera, or contacts, and sends nothing that identifies you. It asks for your location only if you choose to use it to pick your area, and that stays on your device.
 - Recorded and imported surfs, tracks, rides, and journal entries sync through your private iCloud. Workouts go to Apple Health only if you allow it. Tracks and motion logs are never sent to our server; shared waves ratings are described below.
 - Our servers see your IP address when you connect, like any website, and may keep it in logs for running and securing the service.
-- What you choose to send through the web app (feedback, spot checks, and photos) is stored so we can check and improve the forecasts. These submissions are separate from your private iCloud journal.
+- What you choose to send through the app or the web app (feedback, spot checks, and photos) is stored so we can check and improve the forecasts. These submissions are separate from your private iCloud journal.
 - We never sell information or share it for advertising.
 
 ## The iPhone and iPad app
 
-**What it sends.** The app downloads forecasts, break details, and wave maps from the StokeRanker server. Each request says which surfer profile, scoring model, and forecast you chose, and for a break page or map, which break and hour. That describes a forecast, not you or where you are.
+**What it sends.** The app downloads forecasts, break details, and wave maps from the StokeRanker server. Each request says which surfer profile, scoring model, and forecast you chose, which breaks to include (the breaks in your area plus your starred breaks), and for a break page or map, which break and hour. That describes a forecast, not you, though the list of breaks shows roughly which stretch of coast you surf.
 
 **What our server receives.** As with any internet service, the server and the hosting in front of it receive your IP address, the time, the address requested, and basic client information. These may be kept in access and error logs to run, secure, and troubleshoot the service. They aren't used for advertising, profiling, or tracking.
 
@@ -27,9 +27,13 @@ StokeRanker is an independent, non-commercial surf forecasting project run by Ro
 
 **On your device.** The app remembers your choice of surfer, model, and forecast, and keeps the last forecast it downloaded so it can still show one offline. These stay on your device; your choices may be included in your device backups. Deleting the app removes them from the device.
 
-If you choose Near me under Breaks, the app asks for your approximate location while you’re using it, rounds it to about a kilometre, and keeps it on your device to pick the nearby breaks. It’s never sent to our server. Your starred breaks stay on the device too. You can turn location off in Settings at any time.
+When you choose your area, you can search for a town or let the app use your location. If you use your location, the app asks for it while you’re using it, rounds it to about a kilometre, and keeps it on your device to pick the breaks within the distance you chose. Your position is never sent to our server; only the resulting list of breaks is, as described above. Your starred breaks are kept on the device and included in that list. You can turn location off in Settings at any time.
 
-The app can send waves ratings as spot checks, as described below. It does not upload your photos or motion logs to our server.
+**Widgets.** Home Screen and Lock Screen widgets show the forecast for your breaks. The app passes them a small copy of the forecast it already downloaded, kept on your device, and widgets refresh it from our server with the same kind of forecast request the app makes.
+
+The app can send waves ratings as spot checks, as described below. It does not upload motion logs to our server, and it uploads photos only when an invited observer adds them to a spot check.
+
+**Spot checks from the app.** Spot checks are invite-only. On a phone with an invite code, a spot check sends what you enter (the break, time, ratings, measurements, and notes), what the app was showing for that break and hour, and, if you allow location, **where you stood when you sent it**, to within a few metres. Photos taken in the form carry the camera’s heading and tilt at the shutter as well as their usual metadata; photos chosen from your library keep their own metadata. Checks and photos wait on the phone until there’s signal. They are stored and shared within the trial as described for the web app below.
 
 ## Surfs and the Apple Watch
 
